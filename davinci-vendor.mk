@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -340,13 +340,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/davinci/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a612_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_zap.b01 \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a612_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_zap.b02 \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a612_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_zap.elf \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a612_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_zap.mdt \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
+    vendor/xiaomi/davinci/proprietary/vendor/firmware/a640_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_gmu.bin \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/goodix_gt9886_limit_f10_first.tporder:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9886_limit_f10_first.tporder \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/goodix_gt9886_limit_f10_second.tporder:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_gt9886_limit_f10_second.tporder \
     vendor/xiaomi/davinci/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
